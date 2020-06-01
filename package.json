@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "install": "./build.sh"
+    "prepublish": "./build.sh"
   },
   "dependencies": {}
 }
