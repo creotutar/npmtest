@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "install": "touch ./something.txt"
+    "install": "./build.sh"
   },
   "dependencies": {}
 }
