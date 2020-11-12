@@ -1,1 +1,1 @@
-rm ./README.md
+mv ./README.tmp ./README.md
