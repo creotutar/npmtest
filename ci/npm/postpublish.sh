@@ -1,2 +1,1 @@
-echo $(pwd)
-rm ../../README.md
+rm ./README.md

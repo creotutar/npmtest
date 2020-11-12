@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "prepublish": "./build.sh"
+    "prepublish": "./ci/npm/prepublish.sh",
+    "postpublish": "./ci/npm/postpublish.sh"
   },
   "dependencies": {}
 }
