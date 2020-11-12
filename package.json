@@ -9,8 +9,19 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "prepublish": "./ci/npm/prepublish.sh",
-    "postpublish": "./ci/npm/postpublish.sh"
+    "prepublishOnly": "./ci/npm/prepublish.sh",
+    "postpublish": "./ci/npm/postpublish.sh",
+    "build": "echo build",
+    "build-languages": "echo build-langauges",
+    "build-locales": "echo build-locales",
+    "dev": "echo dev",
+    "docs": "echo docs",
+    "lint": "echo lint",
+    "test": "echo test",
+    "acceptance": "echo acceptance",
+    "size": "echo size",
+    "fix": "echo fix",
+    "extract-translations": "echo extract-translations"
   },
   "dependencies": {}
 }
